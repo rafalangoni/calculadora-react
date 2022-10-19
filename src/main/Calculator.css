@@ -1,6 +1,10 @@
 .calculator{
-    background-color: red;
-    border-radius: 5px;
-    height: 350px;
-    width: 250px;
+    border-radius: 0.4rem;
+    height: 22rem;
+    width: 16rem;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 3rem 3rem 3rem 3rem;
 }
